@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <form action="#">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="address">Address:</label>
+            <input type="address" id="address" name="address" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label>How did you hear about this organisation?</label>
+            <br>
+            <input type="radio" name="ans" value="social platform"> Social Platform</br>
+            <input type="radio" name="ans" value="Friends"> Friends </br>
+            <input type="radio" name="ans" value="others"> Others </br>
+
+
+            <p>Do you have a good working relationship with colleagues?</p>
+            <input type="radio" name="ans" value="yes"> Yes </br>
+            <input type="radio" name="ans" value="no"> No </br>
+
+            <p>Do you understand the strategic goals of the broader organization?</p>
+            <input type="radio" name="ans" value="yes"> Yes </br>
+            <input type="radio" name="ans" value="no"> No </br>
+
+            <p>Do you find your job role exciting and challenging?</p>
+            <input type="radio" name="ans" value="yes"> Yes </br>
+            <input type="radio" name="ans" value="no"> No </br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
